@@ -122,6 +122,13 @@ body>:nth-child(2)>div{
     justify-content: space-evenly;
 
 }
+/*body---> 2nd wrapper --> 2nd div --->last heading */
+body>:nth-child(2)>:nth-child(2):nth-child(2)>:last-child{
+    color: #b93737d0;
+    border-left: 1px solid #75613c; 
+    padding-left: 4rem;    
+
+}
 body>:nth-child(2)>:nth-child(3){
     height: 20%;
     flex-direction: column;
@@ -140,4 +147,75 @@ body>:nth-child(2)>:nth-child(3)>button{
 }
 body>:nth-child(2)>:nth-child(3)>button:hover{
     background: #1d5547;
+}
+
+/* media queries  */
+/* for large phone */
+@media only screen and (max-width:768px){
+    .wrapper{
+        min-width: 89%;
+    }   
+}
+/* redmi phones */
+@media only  screen and (max-width:468px) {
+    .wrapper{
+        min-width: 93%;
+        padding-left: 12px;
+    }
+    .qu-count{
+        font-size: 10px;
+        width: 95%;
+    }
+    .qu h2{
+        font-size: 12px;
+    }
+    .qu-count span {
+        font-size: 15px;
+    }
+    .option-box {
+        width: 98%
+    }
+    .option-box > button{
+        font-size: 10px;
+    }
+    .submit button {
+        width: 46%;
+        font-size: 15px;
+    }
+     .submit button i {
+        font-size: 16px;
+    }
+     body>:nth-child(2) h1{
+         font-size: 28px;
+     }
+     body>:nth-child(2)>:nth-child(2):nth-child(2)>:last-child{
+        padding-left: 31px;
+     }
+     body>:nth-child(2)>div {
+        font-size: 12px;
+     }
+}
+/* small phones */
+@media only  screen and (max-width:320px) {
+
+    .qu-count {
+        font-size: 8px;
+    }
+    .qu h2 {
+        font-size: 13px;
+        word-spacing: 2px;
+    }
+    .submit button {
+        width: 56%;
+    }
+   .option-box > button {
+    font-size: 7px;
+    }
+    body>:nth-child(2) h1 {
+        font-size: 22px;
+    }
+    body>:nth-child(2)>:nth-child(2):nth-child(2)>:last-child{
+        padding-left: 8px;
+     } 
+    
 }
