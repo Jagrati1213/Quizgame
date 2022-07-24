@@ -8,6 +8,6 @@ it was a little IQ test about fronting.
 ### Frame Work ###
 - Bootstap
 - MD Bootstap
-- Font Awesome
-**\I learnt about looping\**
+- Font Awesome\
+**I learnt about looping**
 *you can check out [Quiz](https://Jagrati1213.github.io/Quizgame)*
