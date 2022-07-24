@@ -10,4 +10,4 @@ it was a little IQ test about fronting.
 - MD Bootstap
 - Font Awesome\
 **I learnt about looping**
-*\you can check out [Quiz](https://Jagrati1213.github.io/Quizgame)*
+*you can check out [Quiz](https://Jagrati1213.github.io/Quizgame)*
